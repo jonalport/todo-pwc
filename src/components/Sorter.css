@@ -1,0 +1,35 @@
+.Sorter {
+  display: flex;
+  flex-direction: row;
+  padding: 2%;
+  flex-grow: 1;
+  justify-content: space-evenly;
+}
+
+.Sorter__label {
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+}
+
+.Sorter__sortBy {
+  border: 1px solid #ccc;
+  padding: 4px 12px;
+  border-radius: 20px;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  font-weight: 400;
+  letter-spacing: 0.1rem;
+  cursor: pointer;
+}
+
+.Sorter__sortBy--selected {
+  border: 1px solid #444;
+}
+
+.Sorter__col {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}

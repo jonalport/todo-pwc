@@ -1,0 +1,26 @@
+.Count {
+  letter-spacing: 0.2rem;
+  align-items: center;
+  display: flex;
+  padding: 2%;
+  border-left: 1px solid #ccc;
+  flex-direction: column;
+}
+
+.Count__of,
+.Count__num {
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.Count__label {
+  text-transform: uppercase;
+  font-size: 0.6rem;
+  font-weight: 400;
+  letter-spacing: 0.1rem;
+}
+
+.Count__of {
+  font-weight: 400;
+}

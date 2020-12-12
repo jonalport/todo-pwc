@@ -1,0 +1,10 @@
+.TaskList__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.TaskList__item {
+  /* padding: 2%; */
+  border-bottom: 1px solid #ccc;
+}

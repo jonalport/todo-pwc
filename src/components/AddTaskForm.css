@@ -1,0 +1,9 @@
+.AddTaskForm {
+  border-bottom: 1px solid #ccc;
+}
+.AddTaskForm__input {
+  padding: 2%;
+  border: 0;
+  border-radius: 0;
+  width: 100%;
+}
